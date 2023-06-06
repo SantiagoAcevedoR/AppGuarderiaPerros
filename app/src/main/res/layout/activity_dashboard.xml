@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".DashboardActivity">
+
+        <Button
+            android:id="@+id/buttonMatricularMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matricular mascota"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonVerMisMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver mis mascotas"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonVerRutaMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver ruta asociada a mascota"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonHacerPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hacer pago"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

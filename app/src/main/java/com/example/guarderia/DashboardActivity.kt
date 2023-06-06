@@ -32,19 +32,22 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         when (view.id) {
             R.id.buttonMatricularMascota -> {
                 // Acción para matricular mascota
-               // startActivity(Intent(this, MatricularMascotaActivity::class.java))
+                startActivity(Intent(this, MatricularMascotaActivity::class.java))
             }
+
             R.id.buttonVerMisMascotas -> {
                 // Acción para ver mis mascotas
-               // startActivity(Intent(this, VerMisMascotasActivity::class.java))
+                startActivity(Intent(this, VerMisMascotasActivity::class.java))
             }
+
             R.id.buttonVerRutaMascota -> {
                 // Acción para ver ruta asociada a mascota
-                //startActivity(Intent(this, VerRutaMascotaActivity::class.java))
+                startActivity(Intent(this, VerRutaMascotaActivity::class.java))
             }
+
             R.id.buttonHacerPago -> {
                 // Acción para hacer pago
-               // startActivity(Intent(this, HacerPagoActivity::class.java))
+                startActivity(Intent(this, HacerPagoActivity::class.java))
             }
         }
     }

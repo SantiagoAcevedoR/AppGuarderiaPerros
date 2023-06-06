@@ -1,4 +1,4 @@
-package com.example.ejemplo
+package com.example.guarderia
 
 import org.junit.Test
 
